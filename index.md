@@ -1,6 +1,7 @@
 ---
 layout: home
-title: "My first Blog"
+#title: "My first Blog"
+email: abcd@gmail.com
 ---
 
 # Hello world!
