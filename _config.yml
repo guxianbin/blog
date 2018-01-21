@@ -13,26 +13,3 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: New hope
-email: guxianbinmail@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  本博客所有文章均为原创，以计算机技术相关为主。文章可以随意转载，但请务必注明作者：jetorz@Github。
-  同时欢迎关注我的微信公众号 DongTalks，让我们一起聊聊个人成长、投资、编程、电影、运动等话题。
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  guxianbin
-
-# Outputting
-permalink:     /:year-:month-:day-:title.html
-
-# Handling Reading
-markdown_ext: "md,markdown,mkdown,mkdn,mkd"
-
-# Build settings
-markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
