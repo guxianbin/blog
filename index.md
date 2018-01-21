@@ -1,8 +1,10 @@
 ---
-layout: home
-#title: "My first Blog"
+layout: default
+title: "My first Blog"
 email: abcd@gmail.com
 ---
 
-# Hello world!
+# {{page.title}}
 #### This is my first blog.
+{% include post.include %}
+#### have a nice day.
