@@ -4,7 +4,7 @@ title: "My first Blog"
 email: abcd@gmail.com
 ---
 
-
+<!---
 <h2>{{ page.title }}</h2>
 <p>Recent Blog Posts</p>
 
@@ -15,14 +15,13 @@ email: abcd@gmail.com
         </li>
     {% endfor %}
 </ul>
+--->
 
 
-<!---
 # My first Blog
 ## Recent blog Posts
 
 {% for post in site.posts %}
-{{ post.date | date_to_string }}
+- {{ post.date | date_to_string }} [{{post.title}}]({{ site.baseurl }}{{ post.url }})
 {% endfor %}
 ## have a nice day.
---->
